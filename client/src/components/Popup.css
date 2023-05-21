@@ -1,0 +1,64 @@
+.PopupWapper {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(6, 103, 171, 0.15);
+  z-index: 99999;
+  position: fixed;
+}
+.Popup {
+  width: min(45rem, 95%);
+  position: relative;
+  padding: 4rem;
+  background: #0667ab;
+  border-radius: 18px;
+  text-align: center;
+}
+.Popup img[alt="closelettericon"] {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.Popup h3 {
+  margin-top: 1.5rem;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.Popup p {
+  margin-top: 0.6rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eaeaea;
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 880px) {
+  .Popup h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+  .Popup p {
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  img[alt="newsletterLogo"] {
+    width: 130px;
+  }
+  img[alt="closelettericon"] {
+    width: 16px;
+  }
+  .Popup {
+    padding: 4rem 2rem;
+  }
+}

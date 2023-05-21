@@ -1,0 +1,18 @@
+img[alt="sliderImage"] {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0px 16px 40px rgba(57, 57, 57, 0.08);
+  border-radius: 6px;
+}
+.slider-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 880px) {
+  img[alt="sliderImage"] {
+    width: 220px;
+    height: 160px;
+  }
+}

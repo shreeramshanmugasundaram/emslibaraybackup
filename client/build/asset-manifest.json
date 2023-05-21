@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b455ad7.css",
+    "main.js": "/static/js/main.57c7c7ed.js",
+    "static/media/education1.mp4": "/static/media/education1.86ea0ea737e03e4edc08.mp4",
+    "static/media/img2.webp": "/static/media/img2.a7a219161167149a1e82.webp",
+    "static/media/img1.webp": "/static/media/img1.95fafb34620797070f22.webp",
+    "static/media/pana.svg": "/static/media/pana.1ad847212943fa6311b894e1ce65e4bc.svg",
+    "static/media/img3.webp": "/static/media/img3.fc70abdb98ea87d66300.webp",
+    "static/media/EMS-library-1.webp": "/static/media/EMS-library-1.b1116481f76f395cbfae.webp",
+    "static/media/img5.webp": "/static/media/img5.991de4766a5a16d91d1a.webp",
+    "static/media/img4.webp": "/static/media/img4.01101ce7cd28d87cc836.webp",
+    "static/media/Instagram.svg": "/static/media/Instagram.ae4411ce1600f7fcd2acdecf50d4a071.svg",
+    "static/media/note.svg": "/static/media/note.d8ea1182ad661a412468034c9d7f18d2.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/newspaper2.svg": "/static/media/newspaper2.ca5d84f111a930e24fabd056d805a7ea.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/copyright.svg": "/static/media/copyright.0d8335c9524f9ca77c90515d1a7bad14.svg",
+    "static/media/wifi.svg": "/static/media/wifi.d0a4b48a04b058886a2b96708dcd685f.svg",
+    "static/media/plug.svg": "/static/media/plug.e11465b90775c4c9ff7480a9aea67fc4.svg",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/airconditioning.svg": "/static/media/airconditioning.d0945120dab02acc42508abb79ec8b44.svg",
+    "static/media/newspaper1.svg": "/static/media/newspaper1.143eef3fdcbe97e62d30d011d523a251.svg",
+    "index.html": "/index.html",
+    "static/media/star.svg": "/static/media/star.d696f7b51373cf889b80a977fa109153.svg",
+    "static/media/hamburger.svg": "/static/media/hamburger.b866a0a5a85f8019b2accd7bd6f419ce.svg",
+    "static/media/close.svg": "/static/media/close.e347af1f9723d68705c420be0f7ccacd.svg",
+    "main.6b455ad7.css.map": "/static/css/main.6b455ad7.css.map",
+    "main.57c7c7ed.js.map": "/static/js/main.57c7c7ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b455ad7.css",
+    "static/js/main.57c7c7ed.js"
+  ]
+}

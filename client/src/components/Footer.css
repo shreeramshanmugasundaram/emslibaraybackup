@@ -1,0 +1,75 @@
+.Footer {
+  background: var(--clr-grad);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px;
+}
+
+.Footer a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.Footer > div {
+  display: flex;
+  align-items: center;
+}
+
+.Footer img[alt="email"] {
+  height: 16px;
+  width: 16px;
+}
+.Footer img[alt="instagram"] {
+  height: 24px;
+  width: 24px;
+}
+.Footer > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  padding: 1rem;
+  outline-color: transparent;
+  outline: none;
+  color: white;
+  margin: 1rem 0;
+  display: none;
+}
+.FooterEmail {
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 880px) {
+  .Footer {
+    grid-template-columns: 1fr;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    justify-content: center;
+  }
+  .Footer a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .Footer .FooterEmail {
+    display: none;
+  }
+  .Footer > div {
+    justify-content: center;
+  }
+  .Footer > button {
+    display: block;
+  }
+  .FooterEmail {
+    display: none;
+  }
+}

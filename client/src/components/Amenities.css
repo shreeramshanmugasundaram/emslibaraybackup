@@ -1,0 +1,38 @@
+.AmenitiesCard img {
+  height: 155px;
+  width: 158px;
+  padding: 2.75rem 3.125rem;
+  box-shadow: 0px 16px 40px rgba(57, 57, 57, 0.08);
+  border-radius: 6px;
+}
+.Amenities {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  height: 100%;
+}
+.AmenitiesCard {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+.AmenitiesCard p {
+  padding: 0.5rem 0.2rem;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .Amenities {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Amenities {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .AmenitiesCard p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

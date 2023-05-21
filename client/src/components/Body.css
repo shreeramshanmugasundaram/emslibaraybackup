@@ -1,0 +1,40 @@
+.Body {
+  margin-top: 5rem;
+}
+h2 {
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 3rem;
+  color: var(--clr-body);
+}
+.Body p {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.25rem;
+}
+
+@media only screen and (max-width: 880px) {
+  .Body {
+    margin-top: 2.5rem;
+  }
+  .Body h2 {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 30px;
+  }
+  .Body p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  h2 {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: var(--clr-body);
+  }
+}

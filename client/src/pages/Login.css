@@ -1,0 +1,19 @@
+.Login input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 1rem;
+  border: 1px solid rgba(6, 103, 171, 0.18);
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Login {
+  width: min(35rem, 90%);
+  margin: 5rem auto;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 8px;
+}

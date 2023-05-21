@@ -1,0 +1,53 @@
+.Dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Dashboard_Left {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.Dashboard_Right {
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+.Dashboard input[type="text"],
+.Dashboard textarea {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 1rem;
+  border: 1px solid rgba(6, 103, 171, 0.18);
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.Dashboard_Item {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: antiquewhite;
+  margin: 0.2rem;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 880px) {
+  .Dashboard input {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .Dashboard {
+    grid-template-columns: 1fr;
+  }
+  .Dashboard_Right {
+    overflow-x: scroll;
+  }
+  .Dashboard_Item {
+    background-color: transparent;
+  }
+}

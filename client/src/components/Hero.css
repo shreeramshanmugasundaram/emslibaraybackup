@@ -1,0 +1,66 @@
+.Hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3.25rem;
+}
+.HeroContent {
+  margin-right: 2rem;
+  width: 100%;
+}
+.Hero h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  margin-bottom: 1rem;
+}
+.HeroVideo {
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+.HeroVideo video {
+  width: 100%;
+}
+.Hero p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #8e8e8e;
+  margin-bottom: 2.875rem;
+}
+
+@media only screen and (max-width: 880px) {
+  img[alt="instagram"] {
+    height: 24px;
+    width: 24px;
+  }
+  .Hero {
+    flex-direction: column;
+  }
+  .HeroVideo video {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .HeroContent {
+    margin-right: 1rem;
+    margin-right: 0;
+  }
+  .Hero h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 1rem;
+  }
+  .Hero p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2.25rem;
+  }
+  .btn-1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

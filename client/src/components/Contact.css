@@ -1,0 +1,26 @@
+.Contact input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 1rem;
+  border: 1px solid rgba(6, 103, 171, 0.18);
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+.Contact {
+  max-width: 800px;
+}
+.ContactFlex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+@media only screen and (max-width: 880px) {
+  .Contact input {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
